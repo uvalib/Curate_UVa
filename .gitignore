@@ -12,7 +12,17 @@
 /db/*.sqlite3-journal
 
 # Ignore all logfiles and tempfiles.
+*.log
 /log/*.log
 /tmp
 
 jetty/
+
+# Ignore all IDE files for Aptana and RubyMine.
+.metadata/
+.project
+.idea/
+
+# Ignore .rvmrc of Ruby Version Manager.
+.rvmrc
+
