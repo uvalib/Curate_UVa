@@ -1,0 +1,12 @@
+en:
+  sufia:
+    product_name:       "Libra"
+    institution_name:   "University of Virginia"
+    institution_homepage_url:   "http://www.virginia.edu/"
+    division_name:      "University of Virginia Library"
+    division_homepage_url:   "http://www.library.virginia.edu/"
+    search:
+      form:
+        q:
+          label:        "Search Libra"
+          placeholder:  "Search Libra with keywords"
