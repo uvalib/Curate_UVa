@@ -1,9 +1,13 @@
 # Curate_UVa
 
-Curate_UVa is the University of Virginia's repository for scholarly work.  It is developed on top of Curate.
+Curate_UVa is the University of Virginia's repository for scholarly work.  It is developed using the [Curate](https://github.com/projecthydra/curate) engine.
 Curate is a [Rails engine](http://edgeguides.rubyonrails.org/engines.html) leveraging [ProjectHydra](http://projecthydra.org) and [ProjectBlacklight](http://projectblacklight.org/) components to deliver a foundation for an Institutional Repositories.
 
 * [Installation](#installation)
+  * [Install the Curate engine](#install-the-curate-engine)
+  * [Install the Curate_UVa application](#install-the-curate_uva-application)
+* [Running Curate_UVa](#running-curate_uva)
+* [Stopping Redis and Jetty](#stopping-redis-and-jetty)
 
 # Installation
 
@@ -11,7 +15,7 @@ This installation requires Ruby 2.0.0p247 and Rails 4.0.2.
 
 At the end of the installation, you should have a working directory with a 'curate' subdirectory and a 'Curate_UVa' subdirectory.
 
-## Install Curate
+## Install the Curate engine
 
 Follow the installation instructions for [Curate](https://github.com/projecthydra/curate#curate----).
 
@@ -45,7 +49,7 @@ To install jetty, you should only need to do this once (unless you remove the ./
 $ rake jetty:unzip
 ```
 
-## Install Curate_UVa
+## Install the Curate_UVa application
 
 ### Clone the Curate_UVa repository
 
