@@ -94,12 +94,7 @@ You should be able to access Curate_UVa at localhost:3000 from a web browser.
 
 To stop Redis, simply Ctrl-C to kill the application.
 
-In the curate directory, start jetty.
-```bash
-rake jetty:start
-```
-
-To stop jetty:
+In the curate directory, to stop jetty:
 ```bash
 rake jetty:stop
 ```
